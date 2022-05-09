@@ -1,4 +1,4 @@
-QFirmata Over The Air
+QFirmata Over WiFi
 ===
 Description
 ---
