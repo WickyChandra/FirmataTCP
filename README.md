@@ -40,6 +40,7 @@ include(/path/to/your/libs/QFirmata/QFirmataTCP.pri)
 b. Add qfirmataTCP.cpp and qfirmataTCP.h to your src folder and don't forget to modify the QFirmataTCP.pri path and all #include line on your header code to thr TCP version.
 
 c. modify your mainWindow files to create UI for TCP connection.
+
 -In your mainWindow.h create new QTCPSocket
 ```
 private:
