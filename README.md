@@ -21,8 +21,10 @@ Usage
 ---
 There is two methedes for the robot communicate with the PC:
 1. Using [virtual serial port](<https://www.hw-group.com/software/hw-vsp3-virtual-serial-port>), This methode will work flawlessly with normal code that communicate through cable. Just input your ESP8266 IP address to the app and select the serial port number (COMxx).
-    
+
+
 2. Direct connection using TCP, This methode require modified QFirmata by using QFirmataTCP and modify your mainWindow UI connect methodes.
+
 You have to add and modify this files:
 
 a. Add QFirmataTCP.pri to your folder and modify the following line on your .pro file
