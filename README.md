@@ -40,6 +40,30 @@ include(/path/to/your/libs/QFirmata/QFirmataTCP.pri)
 b. Add qfirmataTCP.cpp and qfirmataTCP.h to your src folder and don't forget to modify the QFirmataTCP.pri path and all #include line on your header code to thr TCP version.
 
 c. modify your mainWindow files to create UI for TCP connection.
+-In your mainWindow.h create new QTCPSocket
+```
+private:
+    QTcpSocket* socket;
+```
+    
+-remove this line
+
+```
+ foreach (const QSerialPortInfo &info, QSerialPortInfo::availablePorts())
+    {
+        ui->_portComboBox->addItem(info.portName());
+    }
+```
+-change this line
+```
+if(_firmata->open(ui->_portComboBox->currentText()))
+```
+into this
+```
+if(_firmata->openSoc(ui->Address->text(), ui->portTcp->value()))
+```
+-in mainWindow.ui delete the comboBox object and create a Line edit with objectName "Address" and Spin Box with objectName "portTcp".
+
 
 ---
 License
