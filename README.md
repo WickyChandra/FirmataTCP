@@ -3,7 +3,7 @@ QFirmata Over The Air
 Description
 ---
 This is a modified QFirmata for connecting [wall follower robot](<https://github.com/rusmanr/QFirmataWallFollower>) to computer wirelessly.
-To communicate wirelessly you need an ESP8266 module that flashed with serial to wifi bridge firmwares, like [ESP-link](<https://github.com/jeelabs/esp-link>) firmware. If you're using NodeMCU you can use the file on ESP-firmware folder 
+To communicate wirelessly you need an ESP8266 module that flashed with serial to wifi bridge firmwares, like [ESP-link](<https://github.com/jeelabs/esp-link>) firmware. If you're using NodeMCU you can use the file on ESP-firmware folder. 
 
 
 
