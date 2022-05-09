@@ -1,11 +1,11 @@
 QT += serialport network
-INCLUDEPATH += C:\Users\sgu\Downloads\QFirmataWallFollower-master/src
+INCLUDEPATH += your\libs\path\QFirmataWallFollower-master/src
 
 HEADERS += \
-    C:\Users\sgu\Downloads\QFirmataWallFollower-master/src/qfirmataTCP.h \
-    C:\Users\sgu\Downloads\QFirmataWallFollower-master/src/qfirmatadefines.h
+    your/libs/path/src/qfirmataTCP.h \
+    your/libs/path/src/qfirmatadefines.h
 SOURCES += \
-    C:\Users\sgu\Downloads\QFirmataWallFollower-master/src/qfirmataTCP.cpp
+   your/libs/path/src/qfirmataTCP.cpp
 
 DISTFILES += \
-    C:\Users\sgu\Downloads\QFirmataWallFollower-master/README.md
+    your/libs/path/README.md
