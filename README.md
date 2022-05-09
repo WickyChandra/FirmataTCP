@@ -9,15 +9,18 @@ To communicate via Wifi you can use ESP8266 module as TCP server to bridge commu
 
 
 
-
+Wiring
+---
 The Arduino and ESP8266 will communicate through serial, the wiring between ESP8266 and Arduino should be like this:
 1. 3.3V ESP8266 to 3.3V Arduino
 2. GND  ESP8266 to GND  Arduino
 3. Tx   ESP8266 to Rx   Arduino
 4. Rx   ESP8266 to Tx   Arduino
 
+Communication
+---
 There is two methedes for the robot communicate with the PC:
-1. Using [virtual serial port](<https://www.hw-group.com/software/hw-vsp3-virtual-serial-port>), This methode will work flawlessly with normal code that communicate through cable. Just input your ESP8266 IP address to the app and select the serial port number(COMxx)
+1. Using [virtual serial port](<https://www.hw-group.com/software/hw-vsp3-virtual-serial-port>), This methode will work flawlessly with normal code that communicate through cable. Just input your ESP8266 IP address to the app and select the serial port number (COMxx).
     
 2. Direct connection using TCP, This methode require modified QFirmata by using QFirmataTCP and modify your mainWindow UI connect methodes.
 You have to add and modify this files:
