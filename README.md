@@ -17,7 +17,7 @@ The Arduino and ESP8266 will communicate through serial, the wiring between ESP8
 3. Tx   ESP8266 to Rx   Arduino
 4. Rx   ESP8266 to Tx   Arduino
 
-Communication
+Usage
 ---
 There is two methedes for the robot communicate with the PC:
 1. Using [virtual serial port](<https://www.hw-group.com/software/hw-vsp3-virtual-serial-port>), This methode will work flawlessly with normal code that communicate through cable. Just input your ESP8266 IP address to the app and select the serial port number (COMxx).
@@ -38,8 +38,8 @@ include(/path/to/your/libs/QFirmata/QFirmataTCP.pri)
 b. Add qfirmataTCP.cpp and qfirmataTCP.h to your src folder and don't forget to modify the QFirmataTCP.pri path and all #include line on your header code to thr TCP version.
 
 c. modify your mainWindow files to create UI for TCP connection.
----
 
+---
 License
 ---
 GPLv3
