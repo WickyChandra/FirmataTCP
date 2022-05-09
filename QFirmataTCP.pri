@@ -1,5 +1,5 @@
 QT += serialport network
-INCLUDEPATH += your\libs\path\QFirmataWallFollower-master/src
+INCLUDEPATH += your/libs/path/src
 
 HEADERS += \
     your/libs/path/src/qfirmataTCP.h \
