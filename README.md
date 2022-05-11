@@ -47,7 +47,7 @@ private:
     QTcpSocket* socket;
 ```
     
--remove this line
+-In your mainWindow.cpp remove/comment out this line
 
 ```
  foreach (const QSerialPortInfo &info, QSerialPortInfo::availablePorts())
@@ -55,7 +55,7 @@ private:
         ui->_portComboBox->addItem(info.portName());
     }
 ```
--change this line
+and change this line
 ```
 if(_firmata->open(ui->_portComboBox->currentText()))
 ```
@@ -63,7 +63,7 @@ into this
 ```
 if(_firmata->openSoc(ui->Address->text(), ui->portTcp->value()))
 ```
--in mainWindow.ui delete the comboBox object and create a Line edit with objectName "Address" and Spin Box with objectName "portTcp".
+-in mainWindow.ui delete the comboBox object and create a Line edit object with objectName "Address" and Spin Box object with objectName "portTcp".
 
 
 ---
