@@ -3,7 +3,7 @@ QFirmata Over WiFi
 Description
 ---
 This is a modified QFirmata for connecting [wall follower robot](<https://github.com/rusmanr/QFirmataWallFollower>) to computer via WiFi.
-To communicate via Wifi you can use ESP8266 module as TCP server to bridge communication from serial to TCP, you need an ESP8266 module that flashed with serial-to-wifi-bridge firmwares such as [ESP-link](<https://github.com/jeelabs/esp-link>) firmware. If you're using NodeMCU you can use the file on ESP-firmware folder. 
+To communicate via Wifi you can use ESP8266 module as TCP server to bridge communication from serial to TCP, you need an ESP8266 module that flashed with serial-to-wifi-bridge firmwares such as [ESP-link](<https://github.com/jeelabs/esp-link>) firmware. If you're using NodeMCU you can use the file on ESP-firmware folder. If you're using ESP-32 you can use [this](<https://github.com/AlphaLima/ESP32-Serial-Bridge>).
 
 
 
