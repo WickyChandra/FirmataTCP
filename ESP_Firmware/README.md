@@ -16,8 +16,8 @@ Via Arduino IDE (work for both ESP8266 and ESP32)
 3. make sure you have ESP32 or ESP8266 board manager installed, check this if not installed for [ESP8266](<https://arduino-esp8266.readthedocs.io/en/latest/installing.html>) or [ESP32](<https://www.hackster.io/abdularbi17/how-to-install-esp32-board-in-arduino-ide-1cd571>)
 4. setup ssid and password of your network in //wifi config section
 5. in //ethernet setup section, configure your ip address setup to fit your network configuration to make ESP has static IP and set it as your TCP server adddress
-6. in //rs-server config, configure your tcp server port
-7. // rs port config, configure your serial connection
+6. in //rs-server config section, configure your tcp server port
+7. in // rs port config section, configure your serial connection
 ---
 
 Via NodeMCU-PyFlasher(only for esp8266 using ESP-Link firmware)
