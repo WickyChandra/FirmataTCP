@@ -6,7 +6,16 @@ The Arduino and ESP will communicate through serial, the wiring between ES and A
 3. Tx   ESP to Rx   Arduino
 4. Rx   ESP to Tx   Arduino
 ---
-
+Usage
+---
+This is one of the methedes for the PC to communicate with the Arduino that connected to ESP:
+1. You can use [virtual serial port](<https://www.hw-group.com/software/hw-vsp3-virtual-serial-port>) 
+2. Install the single version (recommended)
+3. Navigate to Virtual Serial Port tab
+4. Click login and it will automaticly input the pass
+5. Just input your ESP8266 IP address to the app and select the serial port number (COMxx).
+6. Click create COM and wait the LAN status connected
+---
 How to Flash
 ===
 Via Arduino IDE (work for both ESP8266 and ESP32)
