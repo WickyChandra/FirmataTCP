@@ -1,10 +1,11 @@
 Wiring
 ===
-The Arduino and ESP will communicate through serial, the wiring between ES and Arduino should be like this:
+The Arduino and ESP will communicate through serial, the wiring between ESP and Arduino should be like this:
 1. 3.3V ESP to 3.3V Arduino  or 5V ESP to 5V Arduino (depend on ESP module type)
 2. GND  ESP to GND  Arduino
 3. Tx   ESP to Rx   Arduino
 4. Rx   ESP to Tx   Arduino
+*I recommend to put the power source on Arduino side to make sure other module connected to arduino get enough power.
 ---
 Usage
 ---
