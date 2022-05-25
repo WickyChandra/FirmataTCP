@@ -20,6 +20,7 @@ How to Flash
 ===
 Via Arduino IDE (work for both ESP8266 and ESP32)
 ---
+The sketch used in this methode based on [this project](<https://www.hackster.io/techbase_group/arduino-esp32-serial-port-to-tcp-converter-via-wifi-66d341>).
 1. Choose Arduino sketch that suits your devices
 2. open the .ino file
 3. make sure you have ESP32 or ESP8266 board manager installed, check this if not installed for [ESP8266](<https://arduino-esp8266.readthedocs.io/en/latest/installing.html>) or [ESP32](<https://www.hackster.io/abdularbi17/how-to-install-esp32-board-in-arduino-ide-1cd571>)
