@@ -25,9 +25,10 @@ The sketch used in this methode based on [this project](<https://www.hackster.io
 2. open the .ino file
 3. make sure you have ESP32 or ESP8266 board manager installed, check this if not installed for [ESP8266](<https://arduino-esp8266.readthedocs.io/en/latest/installing.html>) or [ESP32](<https://www.hackster.io/abdularbi17/how-to-install-esp32-board-in-arduino-ide-1cd571>)
 4. setup ssid and password of your network in //wifi config section
-5. in //ethernet setup section, configure your ip address setup to fit your network configuration to make ESP has static IP and set it as your TCP server adddress, if your network not allowing static IP request, just command this section.
+5. in //ethernet setup section, configure your ip address setup to fit your network configuration to make ESP has static IP and set it as your TCP server adddress, if your network not allowing static IP request, just command this section to make it recive dynamic IP.
 7. in //rs-server config section, configure your tcp server port
 8. in // rs port config section, configure your serial connection
+9. if you're using dynamic IP address (DHCP), check the serial monitor to get your board IP address info from the debug messages.
 ---
 
 Via NodeMCU-PyFlasher(only for esp8266 using ESP-Link firmware)
