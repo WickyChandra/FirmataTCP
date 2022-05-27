@@ -5,6 +5,7 @@ The Arduino and ESP will communicate through serial, the wiring between ESP and 
 2. GND  ESP to GND  Arduino
 3. Tx   ESP to Rx   Arduino
 4. Rx   ESP to Tx   Arduino
+
 *I recommend to put the power source on Arduino side to make sure other module connected to arduino get enough power.
 ---
 Usage
